@@ -1,0 +1,33 @@
+{
+  "name": "cookies-userauth",
+  "version": "1.0.0",
+  "description": "LightHouse labs  web flex lecture  on HTTP cookies and user Authentication",
+  "main": "server.js",
+  "nodemonConfig": {
+    "ext": "js,html,css,ejs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermurray/cookies-userAuth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermurray/cookies-userAuth/issues"
+  },
+  "homepage": "https://github.com/ermurray/cookies-userAuth#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
