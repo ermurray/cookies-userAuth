@@ -31,7 +31,9 @@ const users = {
 
 const findUserByEmail = (email) => {
   for(const userId in users) {
-    return users[userId].email === email ? users[userId] : null 
+    if (users[userId].email === email) {
+      return users[userId]
+    }
   }
 };
 
