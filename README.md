@@ -9,27 +9,6 @@ LightHouse labs  web flex lecture  on HTTP cookies and user Authentication
 
 ### HTTP review
 - request response style protocol
-- why is HTTP stateless
-  -scalability
-    - make it bigger/better (vertical)
-    - make more (horizontal)
-  -complexity
-    - not tracking sessions etc.
-  - easier caching
-    - track  unchanged data easily
-  -server crashes etc. 
 
-  - what are the trade offs
-    - must re do steps every time (unless cached)
-    - we need to store info between requests, a way maintain sessions and session state
 ### HTTP cookies
 - cookies:
-  - allows us to save some state between requests
-  - stored as key/value pairs
-    - "user_id" : "1232ssry129"
-  - stored only on browser
-  - three main purposes
-    - session
-    - personalization
-    - tracking
-  -
