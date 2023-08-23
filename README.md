@@ -1,6 +1,6 @@
 # HTTP Cookies & User Authentication
 LightHouse labs  web flex lecture  on HTTP cookies and user Authentication
-[Lecture Repo](https://github.com/ermurray/cookies-userAuth/tree/feb20-w7) | [Lecture Recording](https://vimeo.com/751948814/612b284a02)
+[Lecture Repo](https://github.com/ermurray/cookies-userAuth/tree/feb20-w7) | [Lecture Recording](https://vimeo.com/857000582/b20446ccd0?share=copy)
 ## Topics
 - [x] HTTP review
 - [x] HTTP cookies
