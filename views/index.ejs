@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Stuff</title>
+  </head>
+  <body>
+
+      <h1>Welcome
+        <% if (name) { %>
+          <em> <%= name %></em>  
+        <%} %>
+      </h1>
+      <p>Registerd users only click <a href="/protected">here</a></p>
+      
+      <% if (userId) { %>
+        <form method="POST" action="/logout">
+          <button>Logout</button>
+        </form>
+      <% } %>
+      <h1>This is My wonderful Home Page!</h1>
+      <p><a href="/login">Log In</a></p>  
+  </body>
+</html>
